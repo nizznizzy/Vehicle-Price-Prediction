@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Car Price Prediction</title>
+	<title>Vehicle Price Prediction</title>
 	<style type="text/css">
 		body{background-color: #f3f3f3;padding: 0px; text-align: center; }
 		form{padding: 10px; background-color: #FFF;}
@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<h1>Car Price Prediction</h1>
+	<h1>Vehicle Price Prediction</h1>
 	<div class="body_form">
 		<form action="{{ url_for('predict')}}" method="post">
 			<div class="one">
@@ -41,7 +41,7 @@
         	</select>			
     		</div><br><br>
     		<div class="five">
-    		Type of the Car<br>
+    		Type of the Vehicle<br>
 			<input type="radio" class="" name="Fuel_Type_Petrol" value="Petrol" checked="True">
 			<label for="Petrol">Petrol</label>
 			<input type="radio" class="" name="Fuel_Type_Petrol" value="Diesel">
@@ -57,7 +57,7 @@
 			<label for="Individual">Individual</label>
     		</div><br><br>
     		<div class="seven">
-  			Car Transmission<br>
+			Vehicle Transmission<br>
 			<input type="radio" class="" name="Transmission_Mannual" value="Mannual" checked="True">
 			<label for="Mannual">Mannual</label>
 			<input type="radio" class="" name="Transmission_Mannual" value="Automatic">
