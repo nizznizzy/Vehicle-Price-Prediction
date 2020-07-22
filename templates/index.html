@@ -21,19 +21,19 @@
 		<form action="{{ url_for('predict')}}" method="post">
 			<div class="one">
 			Model Year<br>
-			<input type="text" name="Year" class="" placeholder="eg. 2015">
+			<input type="text" name="Year" class="" placeholder="eg. 2015" required>
 			</div><br><br>
 			<div class="two">
 			Show Room Price(In Lakhs)<br>
-			<input type="text" name="Present_Price" class="" placeholder="eg. 10">
+			<input type="text" name="Present_Price" class="" placeholder="eg. 10" required>
 			</div><br><br>
 			<div class="three">
 			How Many Kilometers Drived<br>
-			<input type="text" name="Kms_Driven" class="" placeholder="eg. 50000">
+			<input type="text" name="Kms_Driven" class="" placeholder="eg. 50000" required>
 			</div><br><br>
 			<div class="four">
 			How many previous owners<br>
-			<select name="Owner" class="" required="required">
+			<select name="Owner" class="" required>
             	<option value="0">0</option>
             	<option value="1">1</option>
             	<option value="2">2</option>
