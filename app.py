@@ -8,7 +8,7 @@ import sklearn
 from sklearn import tree
 from sklearn.preprocessing import StandardScaler
 
-
+#Flask app
 app = Flask(__name__)
 model = pickle.load(open('gbr_model.pkl','rb'))
 @app.route('/', methods = ['GET','POST'])
